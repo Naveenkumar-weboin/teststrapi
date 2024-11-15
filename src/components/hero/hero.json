@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "MainContent": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zaras",
+  "info": {
+    "singularName": "zara",
+    "pluralName": "zaras",
+    "displayName": "Zara"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Men": {
+      "type": "string"
+    },
+    "Women": {
+      "type": "string"
+    },
+    "Kids": {
+      "type": "string"
+    }
+  }
+}

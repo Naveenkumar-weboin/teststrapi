@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeNav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.navbar"
+    },
+    "HomeHero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.hero"
+    },
+    "OurClient": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clients.clients"
+    }
+  }
+}
